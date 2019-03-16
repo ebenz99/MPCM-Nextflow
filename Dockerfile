@@ -4,7 +4,9 @@ RUN conda config --append channels conda-forge
 RUN conda install numpy
 RUN conda install sundials
 RUN conda install pandas
+RUN conda install assimulo
+RUN conda install xlrd
 
-ADD my_script.py /
+ADD test2.py /
 
-CMD [ "python", "./my_script.py" ]
+CMD [ "python", "./test2.py" ]
