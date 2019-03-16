@@ -1,4 +1,4 @@
-# Getting Started
+# MPCM-Nextflow
 
 ## Directions
 
