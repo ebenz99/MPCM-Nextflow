@@ -1,0 +1,4 @@
+  File "/Users/ebensman/code/workspaces/MPCM/work/70/300239c43ccfdec075ed876dee8194/.command.sh", line 2
+    return "hi there"
+    ^
+SyntaxError: 'return' outside function

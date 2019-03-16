@@ -7,6 +7,6 @@ RUN conda install pandas
 RUN conda install assimulo
 RUN conda install xlrd
 
-ADD test2.py /
+ADD . /
 
 CMD [ "python", "./test2.py" ]
