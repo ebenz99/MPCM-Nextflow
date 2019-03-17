@@ -4,5 +4,4 @@
 /unused/*
 Dockerfile
 .DS_Store
-.gitignore
 *.md
