@@ -4,4 +4,6 @@
 /unused/*
 Dockerfile
 .DS_Store
-*.md
+*.md\
+*.nf
+kustomization.yaml

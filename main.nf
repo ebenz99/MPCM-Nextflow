@@ -1,31 +1,9 @@
 #!/usr/bin/env nextflow
 
-params.stre = 'Hello world!'
-
-process splitLetters {
-
-    output:
-    file 'chunk_*' into letters
+process test {
 
     """
-    printf '${params.stre}' | split -b 6 - chunk_
+    docker run -v ebensma/mpcm:first
     """
 }
 
-
-process convertToUpper {
-
-    input:
-    file x from letters
-
-    output:
-    stdout result
-
-    """
-    rev $x
-    """
-}
-
-result.subscribe {
-    println it.trim()
-}

@@ -2,13 +2,15 @@ import csv
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
+import os
 from RunPrep import *
 from RunModel import *
 
 
 np.set_printoptions(threshold=np.nan)
-
-
+cdir = os.getcwd()
+ndir = cdir + "/op"
+os.mkdir(ndir)
 
 # deterministic
 th=12;
