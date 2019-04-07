@@ -3,7 +3,9 @@
 process test {
 
     """
-    docker run -v ebensma/mpcm:first
+    docker run --name MPCM1 -v my-vol:/op ebensma/mpcm:first
     """
 }
+
+
 
