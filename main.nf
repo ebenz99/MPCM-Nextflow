@@ -3,7 +3,7 @@
 process test {
 
     """
-    python test2.py
+    echo hi there
     """
 }
 
