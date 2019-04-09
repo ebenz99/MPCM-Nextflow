@@ -2,7 +2,7 @@ process test {
   container true
 
   '''
-  ebensma/mpcm
+  docker/ebensma/mpcm
   '''
 
 }
