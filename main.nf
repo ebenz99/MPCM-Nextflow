@@ -1,7 +1,7 @@
 process test {
 
   '''
-  echo hi
+    echo "hi there" > cat o.txt
   '''
 
 }
