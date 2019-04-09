@@ -1,10 +1,10 @@
-#!/usr/bin/env nextflow
-
 process test {
+  container true
 
-    """
-    echo hi there
-    """
+  '''
+  ebensma/mpcm:updated --name MPCM1 -v op:/op
+  '''
+
 }
 
 
