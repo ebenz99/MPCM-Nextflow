@@ -1,8 +1,10 @@
 process test {
 
   '''
-  touch o.txt
-  pwd > o.txt
+  cd ..
+  cd ..
+  cd ..
+  python test2.py
   '''
 
 }
