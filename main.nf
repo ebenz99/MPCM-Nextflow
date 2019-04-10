@@ -1,7 +1,8 @@
 process test {
+  container = true
 
   '''
-  run ebensma/mpcm:first
+  ebensma/mpcm:first
   '''
 
 }
