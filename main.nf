@@ -1,7 +1,7 @@
 process test {
 
   '''
-  docker run ebensma/mpcm:first
+  run ebensma/mpcm:first
   '''
 
 }
