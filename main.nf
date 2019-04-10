@@ -1,7 +1,7 @@
 process test {
 
   '''
-    echo "hi there" > cat o.txt
+  docker run ebensma/mpcm:first
   '''
 
 }
