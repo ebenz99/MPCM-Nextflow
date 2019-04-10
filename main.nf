@@ -1,7 +1,8 @@
 process test {
 
   '''
-  echo hi there
+  cd Users/ebensman/code/workspaces/MPCM
+  python test2.py
   '''
 
 }
