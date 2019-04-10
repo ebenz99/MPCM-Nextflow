@@ -1,7 +1,7 @@
 process test {
 
   '''
-  cd Users/ebensman/code/workspaces/MPCM
+  cd Users
   python test2.py
   '''
 
