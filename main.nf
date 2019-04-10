@@ -2,7 +2,7 @@ process test {
 
   '''
   touch o.txt
-  PWD > o.txt
+  pwd > o.txt
   '''
 
 }
