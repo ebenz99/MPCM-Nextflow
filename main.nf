@@ -2,7 +2,7 @@ process test {
   container = true
 
   '''
-  ebensma/mpcm:first
+  python test2.py
   '''
 
 }
