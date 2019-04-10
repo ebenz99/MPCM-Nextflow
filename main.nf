@@ -1,8 +1,8 @@
 process test {
 
   '''
-  ls
-  ls > cat o.txt
+  touch o.txt
+  ls > o.txt
   '''
 
 }
