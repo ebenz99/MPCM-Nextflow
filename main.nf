@@ -4,7 +4,8 @@ process test {
   cd ..
   cd ..
   cd ..
-  python test2.py
+  touch o.txt
+  pwd > o.txt
   '''
 
 }
