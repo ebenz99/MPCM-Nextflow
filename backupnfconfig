@@ -1,0 +1,4 @@
+process {    
+    container = 'ebensma/mpcm:updated'    
+    containerOptions '--name MPCM1 -v my-vol:/op'
+}

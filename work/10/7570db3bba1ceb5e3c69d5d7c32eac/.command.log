@@ -1,0 +1,17 @@
+Unable to find image 'ebensma/mpcm:first' locally
+first: Pulling from ebensma/mpcm
+05d1a5232b46: Already exists
+e5691d1765c8: Already exists
+78802ea25736: Already exists
+6f894ec31b21: Already exists
+964762ba9d47: Already exists
+25b3d6d99901: Already exists
+8c03d82c3b30: Already exists
+18d30514797a: Already exists
+3ae864b49972: Already exists
+b9589e21d733: Already exists
+caf10a651fc7: Already exists
+Digest: sha256:656d72beb41b07d4562c09211ed24d37165161c159f0d08318edfe36a710f74f
+Status: Downloaded newer image for ebensma/mpcm:first
+docker: Error response from daemon: Conflict. The container name "/MPCM1" is already in use by container "f5095eb88e56ff4b1de3eca2454e073b482b742856a208305cb228fba41800a3". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.

@@ -10,7 +10,7 @@ from RunModel import *
 np.set_printoptions(threshold=np.nan)
 cdir = os.getcwd()
 ndir = cdir + "/op"
-os.mkdir(ndir)
+#os.makedirs(ndir,exist_ok=True)
 
 # deterministic
 th=12;

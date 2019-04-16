@@ -1,0 +1,13 @@
+
+/*
+#!/usr/bin/env nextflow
+process test {
+    container 'ebensma/mpcm:tag'
+    containerOptions '--name MPCM1 -v my-vol:/op'
+
+    output: file 'op/xoutG_deterministic.csv'
+
+    """
+    echo HELLO
+    """
+}*/
