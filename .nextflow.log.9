@@ -1,14 +1,14 @@
-Apr-17 00:14:59.909 [main] DEBUG nextflow.cli.Launcher - $> nextflow kuberun ebenz99/MPCM-Nextflow -latest
-Apr-17 00:15:00.361 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/.git/config; branch: master; remote: origin; url: https://github.com/ebenz99/MPCM-Nextflow.git
-Apr-17 00:15:00.369 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/.git/config; branch: master; remote: origin; url: https://github.com/ebenz99/MPCM-Nextflow.git
-Apr-17 00:15:00.374 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/ebensman/code/workspaces/MPCM/nextflow.config
-Apr-17 00:15:00.374 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/nextflow.config
-Apr-17 00:15:00.374 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/code/workspaces/MPCM/nextflow.config
-Apr-17 00:15:00.375 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/nextflow.config
-Apr-17 00:15:00.379 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
-Apr-17 00:15:00.416 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
-Apr-17 00:15:02.087 [main] DEBUG nextflow.k8s.K8sConfig - Kubernetes workDir=Users\ebensman\code\workspaces\MPCM; projectDir=/Users/ebensman/code/workspaces/MPCM/projects; volumeClaims=[deepgtex-prp]
-Apr-17 00:15:02.560 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+Apr-17 00:18:34.468 [main] DEBUG nextflow.cli.Launcher - $> nextflow kuberun ebenz99/MPCM-Nextflow -latest
+Apr-17 00:18:34.883 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/.git/config; branch: master; remote: origin; url: https://github.com/ebenz99/MPCM-Nextflow.git
+Apr-17 00:18:34.889 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/.git/config; branch: master; remote: origin; url: https://github.com/ebenz99/MPCM-Nextflow.git
+Apr-17 00:18:34.893 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/ebensman/code/workspaces/MPCM/nextflow.config
+Apr-17 00:18:34.894 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/nextflow.config
+Apr-17 00:18:34.894 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/code/workspaces/MPCM/nextflow.config
+Apr-17 00:18:34.894 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/nextflow.config
+Apr-17 00:18:34.898 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-17 00:18:34.932 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-17 00:18:36.256 [main] DEBUG nextflow.k8s.K8sConfig - Kubernetes workDir=Users\ebensman\code\workspaces\MPCM; projectDir=/Users/ebensman/code/workspaces/MPCM/projects; volumeClaims=[deepgtex-prp]
+Apr-17 00:18:36.895 [main] DEBUG nextflow.cli.Launcher - Operation aborted
 nextflow.exception.AbortOperationException: Kubernetes `workDir` must be a path mounted as a persistent volume -- workDir=Users\ebensman\code\workspaces\MPCM; volumes=/Users/ebensman/code/workspaces/MPCM
 	at nextflow.k8s.K8sConfig.checkStorageAndPaths(K8sConfig.groovy:225)
 	at nextflow.k8s.K8sConfig$checkStorageAndPaths$0.call(Unknown Source)
