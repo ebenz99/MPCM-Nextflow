@@ -1,0 +1,12 @@
+Apr-17 00:29:10.346 [main] DEBUG nextflow.cli.Launcher - $> nextflow kuberun login
+Apr-17 00:29:11.433 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.exception.AbortOperationException: Missing K8s storage volume claim -- The name of a persistence volume claim needs to be provided in the nextflow configuration file
+	at nextflow.k8s.K8sConfig.checkStorageAndPaths(K8sConfig.groovy:205)
+	at nextflow.k8s.K8sConfig$checkStorageAndPaths$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
+	at nextflow.k8s.K8sDriverLauncher.run(K8sDriverLauncher.groovy:109)
+	at nextflow.cli.CmdKubeRun.run(CmdKubeRun.groovy:68)
+	at nextflow.cli.Launcher.run(Launcher.groovy:445)
+	at nextflow.cli.Launcher.main(Launcher.groovy:622)

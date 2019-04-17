@@ -1,23 +1,23 @@
-Apr-16 23:44:29.870 [main] DEBUG nextflow.cli.Launcher - $> nextflow kuberun ebenz99/MPCM-Nextflow -latest
-Apr-16 23:44:30.259 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/.git/config; branch: master; remote: origin; url: https://github.com/ebenz99/MPCM-Nextflow.git
-Apr-16 23:44:30.265 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/.git/config; branch: master; remote: origin; url: https://github.com/ebenz99/MPCM-Nextflow.git
-Apr-16 23:44:30.270 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/ebensman/code/workspaces/MPCM/nextflow.config
-Apr-16 23:44:30.270 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/nextflow.config
-Apr-16 23:44:30.270 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/code/workspaces/MPCM/nextflow.config
-Apr-16 23:44:30.270 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/nextflow.config
-Apr-16 23:44:30.274 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
-Apr-16 23:44:30.293 [main] ERROR nextflow.cli.Launcher - Unable to parse config file: '/Users/ebensman/code/workspaces/MPCM/nextflow.config'
+Apr-17 00:26:57.603 [main] DEBUG nextflow.cli.Launcher - $> nextflow kuberun ebenz99/MPCM-Nextflow -latest
+Apr-17 00:26:57.982 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/.git/config; branch: master; remote: origin; url: https://github.com/ebenz99/MPCM-Nextflow.git
+Apr-17 00:26:57.988 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/.git/config; branch: master; remote: origin; url: https://github.com/ebenz99/MPCM-Nextflow.git
+Apr-17 00:26:57.993 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/ebensman/code/workspaces/MPCM/nextflow.config
+Apr-17 00:26:57.993 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/nextflow.config
+Apr-17 00:26:57.993 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/code/workspaces/MPCM/nextflow.config
+Apr-17 00:26:57.993 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/.nextflow/assets/ebenz99/MPCM-Nextflow/nextflow.config
+Apr-17 00:26:57.997 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-17 00:26:58.012 [main] ERROR nextflow.cli.Launcher - Unable to parse config file: '/Users/ebensman/code/workspaces/MPCM/nextflow.config'
 
-  Compile failed for sources FixedSetSources[name='/groovy/script/Script400CC5CE67457441F1E20EE5D5F78831/_nf_config_09a960fb']. Cause: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
-  /groovy/script/Script400CC5CE67457441F1E20EE5D5F78831/_nf_config_09a960fb: 10: unexpected char: '\' @ line 10, column 20.
-     	launchDir = "Users\ebensman\code\workspaces\MPCM\projects\ebenz99\MPCM-Nextflow"
+  Compile failed for sources FixedSetSources[name='/groovy/script/Script2CE28B1769F91F9CA138925C9F1E905D/_nf_config_ca990fc1']. Cause: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+  /groovy/script/Script2CE28B1769F91F9CA138925C9F1E905D/_nf_config_ca990fc1: 13: unexpected char: '\' @ line 13, column 20.
+     	storageSubPath = "\projects\ebenz99\MPCM-Nextflow"
                         ^
   
   1 error
 
-ch.grengine.except.CompileException: Compile failed for sources FixedSetSources[name='/groovy/script/Script400CC5CE67457441F1E20EE5D5F78831/_nf_config_09a960fb']. Cause: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
-/groovy/script/Script400CC5CE67457441F1E20EE5D5F78831/_nf_config_09a960fb: 10: unexpected char: '\' @ line 10, column 20.
-   	launchDir = "Users\ebensman\code\workspaces\MPCM\projects\ebenz99\MPCM-Nextflow"
+ch.grengine.except.CompileException: Compile failed for sources FixedSetSources[name='/groovy/script/Script2CE28B1769F91F9CA138925C9F1E905D/_nf_config_ca990fc1']. Cause: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/groovy/script/Script2CE28B1769F91F9CA138925C9F1E905D/_nf_config_ca990fc1: 13: unexpected char: '\' @ line 13, column 20.
+   	storageSubPath = "\projects\ebenz99\MPCM-Nextflow"
                       ^
 
 1 error
@@ -102,8 +102,8 @@ ch.grengine.except.CompileException: Compile failed for sources FixedSetSources[
 	at nextflow.cli.Launcher.run(Launcher.groovy:445)
 	at nextflow.cli.Launcher.main(Launcher.groovy:622)
 Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
-/groovy/script/Script400CC5CE67457441F1E20EE5D5F78831/_nf_config_09a960fb: 10: unexpected char: '\' @ line 10, column 20.
-   	launchDir = "Users\ebensman\code\workspaces\MPCM\projects\ebenz99\MPCM-Nextflow"
+/groovy/script/Script2CE28B1769F91F9CA138925C9F1E905D/_nf_config_ca990fc1: 13: unexpected char: '\' @ line 13, column 20.
+   	storageSubPath = "\projects\ebenz99\MPCM-Nextflow"
                       ^
 
 1 error
