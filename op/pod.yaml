@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: data-saver
+spec:
+  containers:
+  - name: data-saver
+    image: ubuntu
+    args: ["sleep", "infinity"]
+    volumeMounts:
+    - mountPath: /Users/ebensman/code/workspaces/MPCM/op
+      name: deepgtex-prp
+  restartPolicy: Never
+  volumes:
+    - name: deepgtex-prp
+      persistentVolumeClaim:
+        claimName: deepgtex-prp

@@ -1,0 +1,56 @@
+Apr-17 16:28:36.985 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ebenz99/MPCM-Nextflow -name intergalactic-archimedes -latest true
+Apr-17 16:28:37.202 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.01.0
+Apr-17 16:28:37.341 [main] INFO  nextflow.cli.CmdRun - Pulling ebenz99/MPCM-Nextflow ...
+Apr-17 16:28:37.374 [main] DEBUG nextflow.scm.RepositoryProvider - Request [credentials -:-] -> https://api.github.com/repos/ebenz99/MPCM-Nextflow/contents/nextflow.config
+Apr-17 16:28:39.015 [main] DEBUG nextflow.scm.RepositoryProvider - Request [credentials -:-] -> https://api.github.com/repos/ebenz99/MPCM-Nextflow/contents/main.nf
+Apr-17 16:28:39.206 [main] DEBUG nextflow.scm.RepositoryProvider - Request [credentials -:-] -> https://api.github.com/repos/ebenz99/MPCM-Nextflow
+Apr-17 16:28:39.420 [main] DEBUG nextflow.scm.AssetManager - Pulling ebenz99/MPCM-Nextflow -- Using remote clone url: https://github.com/ebenz99/MPCM-Nextflow.git
+Apr-17 16:28:51.920 [main] INFO  nextflow.cli.CmdRun -  downloaded from https://github.com/ebenz99/MPCM-Nextflow.git
+Apr-17 16:28:51.967 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/ebensman/code/workspaces/MPCM/projects/ebenz99/MPCM-Nextflow/.git/config; branch: master; remote: origin; url: https://github.com/ebenz99/MPCM-Nextflow.git
+Apr-17 16:28:51.967 [main] INFO  nextflow.cli.CmdRun - Launching `ebenz99/MPCM-Nextflow` [intergalactic-archimedes] - revision: 4c273d300e [master]
+Apr-17 16:28:51.980 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /Users/ebensman/code/workspaces/MPCM/projects/ebenz99/MPCM-Nextflow/nextflow.config
+Apr-17 16:28:51.981 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/ebensman/code/workspaces/MPCM/nextflow.config
+Apr-17 16:28:51.981 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/code/workspaces/MPCM/projects/ebenz99/MPCM-Nextflow/nextflow.config
+Apr-17 16:28:51.981 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/code/workspaces/MPCM/nextflow.config
+Apr-17 16:28:51.991 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-17 16:28:52.057 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-17 16:28:52.130 [main] DEBUG nextflow.Session - Session uuid: af86af42-e624-445e-896d-c82bbf5f7531
+Apr-17 16:28:52.130 [main] DEBUG nextflow.Session - Run name: intergalactic-archimedes
+Apr-17 16:28:52.131 [main] DEBUG nextflow.Session - Executor pool size: 2
+Apr-17 16:28:52.141 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 19.01.0 build 5050
+  Modified: 22-01-2019 11:19 UTC (11:19 GMT)
+  System: Linux 4.15.15-1.el7.x86_64
+  Runtime: Groovy 2.5.5 on OpenJDK 64-Bit Server VM 1.8.0_181-b13
+  Encoding: UTF-8 (UTF-8)
+  Process: 8@intergalactic-archimedes [10.244.79.52]
+  CPUs: 1 - Mem: 251.8 GB (148.9 GB) - Swap: 0 (0)
+Apr-17 16:28:52.307 [main] DEBUG nextflow.Session - Work-dir: /Users/ebensman/code/workspaces/MPCM/work [ceph]
+Apr-17 16:28:52.307 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/ebensman/code/workspaces/MPCM/projects/ebenz99/MPCM-Nextflow/bin
+Apr-17 16:28:53.167 [main] DEBUG nextflow.Session - Session start invoked
+Apr-17 16:28:53.171 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Apr-17 16:28:53.172 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Apr-17 16:28:53.322 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Apr-17 16:28:53.423 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: k8s
+Apr-17 16:28:53.424 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'k8s'
+Apr-17 16:28:53.432 [main] DEBUG nextflow.executor.Executor - Initializing executor: k8s
+Apr-17 16:28:53.434 [main] INFO  nextflow.executor.Executor - [warm up] executor > k8s
+Apr-17 16:28:53.440 [main] DEBUG n.processor.TaskPollingMonitor - Creating task monitor for executor 'k8s' > capacity: 100; pollInterval: 5s; dumpInterval: 5m 
+Apr-17 16:28:53.443 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: TaskPollingMonitor
+Apr-17 16:28:53.443 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: k8s)
+Apr-17 16:28:53.446 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: k8s
+Apr-17 16:28:53.451 [main] DEBUG nextflow.k8s.client.ConfigDiscovery - K8s config file does not exist: /root/.kube/config
+Apr-17 16:28:53.460 [main] DEBUG nextflow.k8s.K8sExecutor - [K8s] API client config=ClientConfig[ server=10.96.0.1:443, namespace=deepgtex-prp, token=eyJhbGciOiJ.., sslCert=LS0tLS1CRUd.., clientCert=-, clientKey=-, verifySsl=false, fromFile=true ]
+Apr-17 16:28:53.545 [main] DEBUG nextflow.Session - >>> barrier register (process: test)
+Apr-17 16:28:53.549 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > test -- maxForks: 2
+Apr-17 16:28:53.585 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Apr-17 16:28:53.586 [main] DEBUG nextflow.Session - Session await
+Apr-17 16:28:53.933 [Task submitter] INFO  nextflow.Session - [31/98a98c] Submitted process > test
+Apr-17 16:29:03.598 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: test; status: COMPLETED; exit: 0; error: -; workDir: /Users/ebensman/code/workspaces/MPCM/work/31/98a98cfb50f74de8752c5e503b5715]
+Apr-17 16:29:03.606 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: test)
+Apr-17 16:29:03.607 [main] DEBUG nextflow.Session - Session await > all process finished
+Apr-17 16:29:03.618 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: k8s)
+Apr-17 16:29:03.619 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Apr-17 16:29:03.624 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=1; failedCount=0; ignoredCount=0; cachedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms]
+Apr-17 16:29:04.018 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Apr-17 16:29:04.192 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

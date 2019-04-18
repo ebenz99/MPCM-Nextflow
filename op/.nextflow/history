@@ -1,0 +1,77 @@
+2019-01-16 02:20:13	9m 57s	distracted-cajal	ERR	10e6139a248d92c404b058f2ef35d1e752a75793	7b043285-9de5-49ca-acc5-eab3447bae4a	nextflow run bentsherman/KINC-nf -name distracted-cajal
+2019-01-16 22:18:34	3m 42s	fervent-babbage	OK	10e6139a248d92c404b058f2ef35d1e752a75793	ef992195-0566-434d-b6f3-404b80cecfd4	nextflow run bentsherman/KINC-nf -name fervent-babbage
+2019-01-17 04:46:37	29s	distraught-carson	ERR	6d658d751e97adbc1826e28a18e6f23c61aebd92	30ce720f-ed8d-40f2-a57f-c0326e6fa2ec	nextflow run systemsgenetics/GEMmaker -name distraught-carson
+2019-01-16 20:49:10	28.6s	determined-lamarck	ERR	6d658d751e97adbc1826e28a18e6f23c61aebd92	b7319ff3-b266-4277-a19b-8240f7ac164b	nextflow run systemsgenetics/GEMmaker -name determined-lamarck
+2019-01-17 20:34:29	20.9s	golden-carson	ERR	6d658d751e97adbc1826e28a18e6f23c61aebd92	7252fe84-4d8e-476c-94ed-2ca1244d6627	nextflow run systemsgenetics/GEMmaker -name golden-carson
+2019-01-17 21:14:25	14.3s	loving-marconi	ERR	6d658d751e97adbc1826e28a18e6f23c61aebd92	17c57635-82df-4743-ab3e-b64664b693d6	nextflow run systemsgenetics/GEMmaker -name loving-marconi
+2019-01-18 18:47:47	3m 38s	wise-raman	OK	10e6139a248d92c404b058f2ef35d1e752a75793	d1bf2590-0467-4e8e-8c0d-9f885ef99459	nextflow run bentsherman/KINC-nf -name wise-raman
+2019-01-18 20:29:54	4m 9s	maniac-ekeblad	OK	10e6139a248d92c404b058f2ef35d1e752a75793	392faea7-9c30-4938-8543-ffa8678536a9	nextflow run bentsherman/KINC-nf -name maniac-ekeblad
+2019-01-18 21:47:55	30.1s	boring-meucci	ERR	6d658d751e97adbc1826e28a18e6f23c61aebd92	e7489115-e6ea-40ed-9cea-2ecba3193cbc	nextflow run systemsgenetics/GEMmaker -name boring-meucci
+2019-01-18 21:50:11	5s	chaotic-cori	ERR	6d658d751e97adbc1826e28a18e6f23c61aebd92	117788bf-0d07-42e0-a032-7e854d0088c7	nextflow run systemsgenetics/GEMmaker -name chaotic-cori
+2019-01-19 17:13:57	3m 2s	hungry-albattani	OK	10e6139a248d92c404b058f2ef35d1e752a75793	954837e9-61d4-4814-bca4-9867d64b4bbd	nextflow run bentsherman/KINC-nf -name hungry-albattani
+2019-01-19 17:49:31	2m 55s	astonishing-albattani	OK	5925e38e9c10ad9d043178fc443ccdbb310e111a	931c77d0-fee1-4ed8-adec-e9f33c6ce3c9	nextflow run systemsgenetics/KINC-nf -name astonishing-albattani
+2019-01-19 17:59:34	3m 10s	hopeful-legentil	OK	5925e38e9c10ad9d043178fc443ccdbb310e111a	a25f18f0-79a9-4262-9a32-fcc9629ce96b	nextflow run systemsgenetics/KINC-nf -name hopeful-legentil
+2019-01-20 15:34:53	2m 47s	sick-curie	OK	5925e38e9c10ad9d043178fc443ccdbb310e111a	6fe2d181-e30d-45dd-b271-137b68c0e6b6	nextflow run systemsgenetics/KINC-nf -name sick-curie
+2019-01-20 15:39:30	6m 39s	evil-wilson	OK	5925e38e9c10ad9d043178fc443ccdbb310e111a	023085f3-23b0-4bf2-be8b-81c1dfca2723	nextflow run systemsgenetics/KINC-nf -name evil-wilson
+2019-01-20 17:58:45	-	golden-meitner	-	4a271271bfc393b2d9bbcd93d39ff02086414e7d	c78cf725-0205-49d2-b5eb-a699fed05e4c	nextflow run systemsgenetics/GEMmaker -name golden-meitner
+2019-01-20 18:15:58	10s	naughty-yalow	ERR	73c703de020437a416d79149ddd93481f6180749	f77da228-86cf-4a81-b9a3-68e2b35052f6	nextflow run systemsgenetics/GEMmaker -name naughty-yalow -latest true
+2019-02-14 14:37:18	12.8s	jolly-goodall	OK	fd2a11fc4fe13ba266cf2430552a441d16fa7e3f	8a88019a-ee47-41e3-a734-6a06a92c9203	nextflow run 'https://github.com/SystemsGenetics/KINC-nf' -name jolly-goodall
+2019-02-14 14:46:43	16.3s	extravagant-franklin	OK	fd2a11fc4fe13ba266cf2430552a441d16fa7e3f	eb2ccc6d-10f5-451c-8339-c385aca32aad	nextflow run 'https://github.com/SystemsGenetics/KINC-nf' -name extravagant-franklin
+2019-02-22 18:17:01	42.1s	extravagant-avogadro	ERR	bd0640d05234455276ff3f7ac7f144284c66a5f4	fd263f09-3073-4ea1-9ab5-07035a907662	nextflow run systemsgenetics/GEMMaker -name extravagant-avogadro -latest true
+2019-02-26 15:03:45	25.6s	cranky-leavitt	ERR	bd0640d05234455276ff3f7ac7f144284c66a5f4	fde9687d-cf69-4995-959b-7a2927454280	nextflow run systemsgenetics/GEMmaker -name cranky-leavitt -latest true
+2019-02-26 15:28:39	2m 40s	agitated-ampere	OK	bd0640d05234455276ff3f7ac7f144284c66a5f4	5608befc-1081-4f3e-99f8-dcce1ca1737c	nextflow run systemsgenetics/GEMmaker -name agitated-ampere
+2019-02-26 15:32:37	14.5s	irreverent-montalcini	ERR	bd0640d05234455276ff3f7ac7f144284c66a5f4	20ba788e-a921-4571-877a-3c6f750b9fbb	nextflow run systemsgenetics/GEMmaker -name irreverent-montalcini
+2019-02-26 15:37:14	4.1s	gigantic-goodall	ERR	bd0640d05234455276ff3f7ac7f144284c66a5f4	53b629e4-5cda-4d2b-9baa-dc6e1b48eb61	nextflow run systemsgenetics/GEMmaker -name gigantic-goodall
+2019-02-26 16:01:51	10.1s	backstabbing-kilby	ERR	bd0640d05234455276ff3f7ac7f144284c66a5f4	182cbba3-a023-4857-9096-5bde551dee97	nextflow run systemsgenetics/GEMmaker -name backstabbing-kilby
+2019-03-15 14:06:57	35.6s	ecstatic-mccarthy	ERR	577f493297d302de221b2fcdd4fc0bafcf28dec0	7d34096b-5a70-41a3-8ff0-f2631f2e8e7c	nextflow run systemsgenetics/GEMmaker -name ecstatic-mccarthy -latest true
+2019-03-15 14:55:01	20.5s	sharp-volta	ERR	577f493297d302de221b2fcdd4fc0bafcf28dec0	a7f617f7-db8f-4ad9-8cab-8edf768b611a	nextflow run systemsgenetics/GEMmaker -name sharp-volta
+2019-04-09 18:08:55	1m 42s	dreamy-goodall	ERR	0b32f656940457a5ab8bc2082999419cb8a1410d	1564129e-9d27-4821-b866-f7d1a3cc36c2	nextflow run ebenz99/MPCM-Nextflow -name dreamy-goodall -latest true
+2019-04-09 18:28:29	1m 27s	elegant-colden	ERR	a339ebba31884cab38d6e3b8a93b680673402454	bab7cb49-6285-4d65-9e27-ef7ffa96d715	nextflow run ebenz99/MPCM-Nextflow -name elegant-colden -latest true
+2019-04-09 18:34:30	12s	naughty-bohr	ERR	c82cb9efec5648bafd28a5ee4fbb51d4a503794b	5115fd2e-405a-4d83-9194-4625e0140a32	nextflow run ebenz99/MPCM-Nextflow -name naughty-bohr -latest true
+2019-04-09 18:36:20	12.4s	angry-lovelace	OK	c7d97a948509c7b8bde8a6a1be7bb4de5aedc243	6fc8fa32-3af1-4735-8688-d6846e319c3f	nextflow run ebenz99/MPCM-Nextflow -name angry-lovelace -latest true
+2019-04-09 18:50:29	12.7s	sharp-poincare	OK	c7d97a948509c7b8bde8a6a1be7bb4de5aedc243	c11f4db2-afe8-464f-9017-de1fafa568f5	nextflow run ebenz99/MPCM-Nextflow -name sharp-poincare -latest true
+2019-04-09 19:13:01	12.9s	pensive-cajal	OK	c7d97a948509c7b8bde8a6a1be7bb4de5aedc243	a96c89ea-b12e-41c3-992d-4bced780f497	nextflow run ebenz99/MPCM-Nextflow -name pensive-cajal -latest true
+2019-04-09 19:23:19	3.4s	lonely-heisenberg	ERR	882e6f790f285db1cfaba522dd47518ed79e1d45	d194f860-f788-4cf8-853c-60f34ddd4cc1	nextflow run ebenz99/MPCM-Nextflow -name lonely-heisenberg -latest true
+2019-04-09 19:53:20	3.2s	distraught-euler	ERR	470431edc89d742f079393260c3fc1bcca4a1397	20948b2a-3047-4beb-9470-05ae113415cf	nextflow run ebenz99/MPCM-Nextflow -name distraught-euler -latest true
+2019-04-09 19:56:19	3.5s	distraught-coulomb	ERR	eb783c5aea969395420d039dba3750d57e4aaa08	f31251a4-00c1-40f1-a8d8-d53a0ef32198	nextflow run ebenz99/MPCM-Nextflow -name distraught-coulomb -latest true
+2019-04-09 19:57:07	3.9s	agitated-kirch	ERR	e6c2a8b2eb94433f5f6182985e2f48ee2cbf1847	e52cf9ef-f798-43c5-b12c-02fcaf91b6a7	nextflow run ebenz99/MPCM-Nextflow -name agitated-kirch -latest true
+2019-04-09 19:59:10	13.6s	determined-brenner	OK	10af7d2c2a4b5a3f4a7ba6eca0b1f0369794b02d	1c871654-245e-41f8-8381-aac41d920afd	nextflow run ebenz99/MPCM-Nextflow -name determined-brenner -latest true
+2019-04-09 20:04:28	8.1s	mad-darwin	OK	9c217d5082877eedfe66e9a5deb2113113e9d744	cc1ea8a6-2e5d-43d9-b309-4215487f0507	nextflow run ebenz99/MPCM-Nextflow -name mad-darwin -latest true
+2019-04-09 20:39:25	15.2s	compassionate-brattain	OK	9c217d5082877eedfe66e9a5deb2113113e9d744	22310fe9-1a46-4303-9fbc-1a044ea01f59	nextflow run ebenz99/MPCM-Nextflow -name compassionate-brattain -latest true
+2019-04-09 20:56:46	13.5s	spontaneous-booth	OK	9c217d5082877eedfe66e9a5deb2113113e9d744	01339a87-4c12-417c-b1a7-dbc9c778c78d	nextflow run ebenz99/MPCM-Nextflow -name spontaneous-booth -latest true
+2019-04-09 21:02:25	6.8s	ridiculous-baekeland	OK	e7efe9e3daa9dc1a7f08ed19fd9d715d52e1a030	47e430f1-fed6-4961-9507-a1e6185eb71e	nextflow run ebenz99/MPCM-Nextflow -name ridiculous-baekeland -latest true
+2019-04-10 12:57:20	2m 8s	spontaneous-ampere	ERR	3a37e88cab7ae7bc555ee9887d230c3776161dd7	992cae5e-f352-468d-98b1-35156c2c349e	nextflow run ebenz99/MPCM-Nextflow -name spontaneous-ampere -latest true
+2019-04-10 13:07:44	32.1s	intergalactic-hawking	ERR	083f7bd0bb87aafc39110ae6d91ac9f7655084d0	a6ed583e-db10-45cc-b60d-aca15abbc1cb	nextflow run ebenz99/MPCM-Nextflow -name intergalactic-hawking -latest true
+2019-04-10 13:35:52	21.3s	awesome-picasso	ERR	dbef54510c74cd5ed9198962c2c1d8ba2002c640	b3abeaa4-75dc-4a23-93cc-f8014b76a691	nextflow run ebenz99/MPCM-Nextflow -name awesome-picasso -latest true
+2019-04-10 14:47:31	25.3s	trusting-picasso	ERR	dbef54510c74cd5ed9198962c2c1d8ba2002c640	50782843-e1ce-43fc-94f6-61611e6f1dc6	nextflow run ebenz99/MPCM-Nextflow -name trusting-picasso -latest true
+2019-04-10 14:50:53	16s	amazing-bernard	ERR	5657411f80372a287b422fdd302129a4fe22b392	2ca89e7d-37b8-44e6-99a6-13418a00f708	nextflow run ebenz99/MPCM-Nextflow -name amazing-bernard -latest true
+2019-04-10 14:54:59	10.9s	nice-lamarr	ERR	505e128a47b609b9608d39dd37344f36449f1609	0071cb96-bd5c-4313-930a-e6e7d57d846f	nextflow run ebenz99/MPCM-Nextflow -name nice-lamarr -latest true
+2019-04-10 15:19:02	15.5s	elegant-stone	OK	495f6359d5c2d8460316c7732891cf83a0224344	3f874d55-beef-44e1-9d07-45d349a5f129	nextflow run ebenz99/MPCM-Nextflow -name elegant-stone -latest true
+2019-04-10 16:16:11	15.4s	golden-lamarck	ERR	724c92b722cc4db3b8749aafafcb00e3fc570eb2	f4cc35f0-dc85-43f0-8748-a73ecabaa30a	nextflow run ebenz99/MPCM-Nextflow -name golden-lamarck -latest true
+2019-04-10 16:24:05	39.9s	romantic-bassi	ERR	2a2ccbcea009151ae041df9c0dc3190d36dd452a	59b04961-2f5b-4145-8aa6-24f0f8be5364	nextflow run ebenz99/MPCM-Nextflow -name romantic-bassi -latest true
+2019-04-10 16:31:43	25.5s	happy-becquerel	ERR	bbb9054f76efdf81a01541f0492dcb5d829511db	046f79bf-951a-4b91-babe-af7d9670e850	nextflow run ebenz99/MPCM-Nextflow -name happy-becquerel -latest true
+2019-04-10 16:41:11	1m 9s	cranky-goldstine	OK	edc2c21dd90958de0fc1d9fd4ded07066f06942e	0839ee3b-2289-42fa-933c-daf86c10156e	nextflow run ebenz99/MPCM-Nextflow -name cranky-goldstine -latest true
+2019-04-10 17:53:13	40.4s	magical-stonebraker	ERR	1472e03a885f3ec8a26e94eaefbbc9c261a0ea5e	6fbb3820-6268-4834-a051-c93e897e0510	nextflow run ebenz99/MPCM-Nextflow -name magical-stonebraker -latest true
+2019-04-10 17:59:04	1m 29s	voluminous-easley	OK	03254bd0887b2f67271a3af6c5faa892e72b6e8e	6a8e5369-8ea0-4056-9c3f-602f7a51daba	nextflow run ebenz99/MPCM-Nextflow -name voluminous-easley -latest true
+2019-04-10 18:10:46	1m 23s	admiring-baekeland	ERR	f3b0d138e56497f962d6c53c9f3b59618436655f	7e2ac412-f4fc-4d7e-8d44-db5fd3c01682	nextflow run ebenz99/MPCM-Nextflow -name admiring-baekeland -latest true
+2019-04-10 18:17:15	54.9s	scruffy-marconi	OK	827b31e2068f3774e89190eb4e7028b81093da21	559ca906-c2eb-4359-a248-d91d3cc64419	nextflow run ebenz99/MPCM-Nextflow -name scruffy-marconi -latest true
+2019-04-15 16:37:28	21m 49s	hungry-poitras	ERR	eb9754d4fcf641a6b51f309925a4b9d5dc38303b	8953b838-c30e-48cd-804e-7653621d4b4d	nextflow run systemsgenetics/KINC-nf -name hungry-poitras -latest true
+2019-04-15 17:05:19	21m 45s	confident-mestorf	OK	eb9754d4fcf641a6b51f309925a4b9d5dc38303b	ab16c1d3-faf3-45c4-b192-65a9903059f7	nextflow run systemsgenetics/KINC-nf -name confident-mestorf
+2019-04-16 21:09:25	36.6s	zen-hawking	OK	0a2de782ec0ba4720a8eee4c818c25f7213c7c7e	0fef3b7a-0c1c-4d5f-badc-e151a22344c3	nextflow run ebenz99/MPCM-Nextflow -name zen-hawking -latest true
+2019-04-16 21:11:53	11.8s	clever-murdock	OK	0a2de782ec0ba4720a8eee4c818c25f7213c7c7e	fc9e4b4e-7f58-419b-94b5-db64755c3383	nextflow run ebenz99/MPCM-Nextflow -name clever-murdock -latest true
+2019-04-16 21:21:07	5.8s	nostalgic-mcnulty	ERR	89691e0c28119efd2c21d4fedb415c38d9ce45e7	e0fa8947-d798-430b-8b60-0bda56224af0	nextflow run ebenz99/MPCM-Nextflow -name nostalgic-mcnulty -latest true
+2019-04-16 22:53:53	7.1s	determined-miescher	ERR	8fdde732ee9f265a2f8706ce8c2b6ba892f3d5f9	ee092457-1d96-4499-98cf-8c8fee3dc402	nextflow run ebenz99/MPCM-Nextflow -name determined-miescher -latest true
+2019-04-16 23:16:46	19m 32s	thirsty-mandelbrot	OK	9543958efef3a0cde408ee39e2aff5a36f542705	5974cb6b-b97d-455e-a2e2-1bbef26c0907	nextflow run ebenz99/MPCM-Nextflow -name thirsty-mandelbrot -latest true
+2019-04-17 03:46:26	2.3s	soggy-kirch	ERR	b5594e304226b67340fdd65f5567e0f63013c251	30b339e0-c6ae-4964-8b85-f5fd417de2be	nextflow run ebenz99/MPCM-Nextflow -name soggy-kirch -latest true
+2019-04-17 03:47:08	2.3s	desperate-lumiere	ERR	a7625fdd62e5471cd5f125ba229f418f	4e12ad4a-60ef-42c9-bf38-a69397d4ec6b	nextflow run ebenz99/MPCM-Nextflow -name desperate-lumiere -latest true
+2019-04-17 03:56:46	2.8s	drunk-mahavira	ERR	a7625fdd62e5471cd5f125ba229f418f	815aa3d3-a1c1-4132-87c6-e053baeb5700	nextflow run ebenz99/MPCM-Nextflow -name drunk-mahavira -latest true
+2019-04-17 03:58:16	6s	condescending-rubens	ERR	a7625fdd62e5471cd5f125ba229f418f	4740d787-931e-477a-a2f8-ff22141f7c49	nextflow run ebenz99/MPCM-Nextflow -name condescending-rubens -latest true
+2019-04-17 03:59:50	1.5s	focused-pasteur	ERR	a7625fdd62e5471cd5f125ba229f418f	ba233445-5add-4007-9cf6-ed2a5e348114	nextflow run ebenz99/MPCM-Nextflow -name focused-pasteur -latest true
+2019-04-17 04:01:33	3.6s	sad-lichterman	ERR	a7625fdd62e5471cd5f125ba229f418f	0ada0b44-edad-4f3c-b0f9-8f118b16cace	nextflow run ebenz99/MPCM-Nextflow -name sad-lichterman -latest true
+2019-04-17 04:06:36	1.6s	high-mcclintock	ERR	a7625fdd62e5471cd5f125ba229f418f	73d26142-0149-493b-9b36-d56c78c66788	nextflow run ebenz99/MPCM-Nextflow -name high-mcclintock -latest true
+2019-04-17 04:07:18	1.5s	ecstatic-stone	ERR	a7625fdd62e5471cd5f125ba229f418f	6ec572cd-1681-48ce-86a5-ac8a8d79f708	nextflow run ebenz99/MPCM-Nextflow -name ecstatic-stone -latest true
+2019-04-17 04:19:16	1.9s	intergalactic-yonath	ERR	a7625fdd62e5471cd5f125ba229f418f	ac2829af-f114-454b-a556-fe4a159bf882	nextflow run ebenz99/MPCM-Nextflow -name intergalactic-yonath -latest true
+2019-04-17 04:24:39	2.9s	condescending-raman	ERR	a7625fdd62e5471cd5f125ba229f418f	9e7ec804-b06a-4a47-b2f7-7bfb3e7b26c9	nextflow run ebenz99/MPCM-Nextflow -name condescending-raman -latest true
+2019-04-17 17:41:13	-	spontaneous-brattain	-	577f493297d302de221b2fcdd4fc0bafcf28dec0	520ca147-bd02-46c4-b8ce-a901471ed58f	nextflow run systemsgenetics/GEMmaker -name spontaneous-brattain
+2019-04-17 18:03:53	2h 27m 15s	ecstatic-morse	ERR	577f493297d302de221b2fcdd4fc0bafcf28dec0	20512f67-eae8-4e1f-9635-75af3bb8ac65	nextflow run systemsgenetics/GEMmaker -name ecstatic-morse
+2019-04-17 18:38:36	1h 52m 32s	infallible-torricelli	ERR	577f493297d302de221b2fcdd4fc0bafcf28dec0	6d59c2f1-cff5-40cd-a667-a9b9b1d67524	nextflow run systemsgenetics/GEMmaker -name infallible-torricelli
