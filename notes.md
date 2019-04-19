@@ -24,7 +24,7 @@
 
 ## Push to DockerHub
 1. Log in on CL with `docker login`
-2. Tag your update with `docker tag <image_name> <username>/<image_name>:<tag>`
+2. Tag your update with `docker tag <image_name> <username>/< image_name>:<tag>`
 3. Push it to dockerhub with `docker push <username>/<image_name>:<tag>`
 
 ## Run with mounted volume
@@ -35,3 +35,5 @@
 
 ## Running jobs
 1. Run a job from `main.nf` in git repository with `nextflow kuberun ebenz99/MPCM-Nextflow -latest`
+
+`Users/ebensman/code/workspaces/MPCM/ebenz99/MPCM-Nextflow/`
