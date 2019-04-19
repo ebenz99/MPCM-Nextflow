@@ -7,8 +7,7 @@ process test {
   cd projects
   cd ebenz99
   cd MPCM-Nextflow
-  cd op
-  echo hi > a.txt
+  python test2.py
   '''
 
 }
