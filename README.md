@@ -20,17 +20,6 @@
 4. Create a kustomization.yaml 
 
 
-spec:
-  containers:
-  - image: ebensma/mpcm:newest
-    name: mympcm
-    volumeMounts:
-    - mountPath: /cache
-      name: cache-volume
-  volumes:
-  - name: cache-volume
-    emptyDir: {}
-
 ## From Scratch -- NRP Directions
 
 1. Login to Nautilus
