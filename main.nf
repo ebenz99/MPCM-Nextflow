@@ -1,7 +1,7 @@
 process test {
 
   '''
-  PWD > a.txt
+  pwd > a.txt
   '''
 
 }
