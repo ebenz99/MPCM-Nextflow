@@ -1,7 +1,14 @@
 process test {
 
   '''
-  pwd > a.txt
+  cd ..
+  cd ..
+  cd ..
+  cd projects
+  cd ebenz99
+  cd MPCM-Nextflow
+  mkdir op
+  echo hi > a.txt
   '''
 
 }
