@@ -1,3 +1,4 @@
 Mechanistic_Pan-Cancer_Model/
 kustomization.yaml
 .nextflow.log*
+credentials.yml

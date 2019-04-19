@@ -8,3 +8,9 @@ Dockerfile
 *.nf
 kustomization.yaml
 Mechanistic_Pan-Cancer_Model
+kube-*
+nextflow.config
+.nextflow*
+*.sh
+backup*
+credentials.yml
