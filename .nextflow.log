@@ -1,5 +1,9 @@
-Apr-18 14:36:38.730 [main] DEBUG nextflow.cli.Launcher - $> nextflow kuberun login
-Apr-18 14:36:38.839 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/ebensman/code/workspaces/MPCM/nextflow.config
-Apr-18 14:36:38.840 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/code/workspaces/MPCM/nextflow.config
-Apr-18 14:36:38.853 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
-Apr-18 14:36:39.908 [main] DEBUG nextflow.k8s.K8sConfig - Kubernetes workDir=/Users/ebensman/code/workspaces/MPCM/work; projectDir=/Users/ebensman/code/workspaces/MPCM/projects; volumeClaims=[deepgtex-prp]
+Apr-18 16:46:32.163 [main] DEBUG nextflow.cli.Launcher - $> nextflow kuberun ebenz99/MPCM-Nextflow -latest
+Apr-18 16:46:32.326 [main] DEBUG nextflow.scm.RepositoryProvider - Request [credentials -:-] -> https://api.github.com/repos/ebenz99/MPCM-Nextflow/contents/nextflow.config
+Apr-18 16:46:32.705 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/ebensman/code/workspaces/MPCM/nextflow.config
+Apr-18 16:46:32.705 [main] DEBUG nextflow.config.ConfigBuilder - User config file: nextflow.scm.ProviderPath@39109136
+Apr-18 16:46:32.706 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/code/workspaces/MPCM/nextflow.config
+Apr-18 16:46:32.706 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ebensman/code/workspaces/MPCM/nextflow.config
+Apr-18 16:46:32.723 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-18 16:46:33.021 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-18 16:46:34.164 [main] DEBUG nextflow.k8s.K8sConfig - Kubernetes workDir=/Users/ebensman/code/workspaces/MPCM/work; projectDir=/Users/ebensman/code/workspaces/MPCM/projects; volumeClaims=[deepgtex-prp]
