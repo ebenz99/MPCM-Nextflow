@@ -1,4 +1,3 @@
-git add main.nf
-git add nextflow.config
+git add .
 git commit -m "updated main"
 git push

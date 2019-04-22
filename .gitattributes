@@ -1,2 +1,2 @@
-*.py linguist-vendor
-*.sh linguist-vendor
+*.py export-ignore
+*.sh export-ignore
