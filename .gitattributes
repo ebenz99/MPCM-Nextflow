@@ -1,2 +1,2 @@
-*.py export-ignore
-*.sh export-ignore
+* linguist-vendored
+*.nf linguist-vendored=false
