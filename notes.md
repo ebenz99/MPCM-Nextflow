@@ -28,7 +28,7 @@
 3. Push it to dockerhub with `docker push <username>/<image_name>:<tag>`
 
 ## Run with mounted volume
-1. docker run -v `relativeHostPathtoOutputFolder:/<ContainerPath>` as shown here https://www.youtube.com/watch?v=7K11G0SypJQ
+1. Your `ENTRYPOINT`s and `CMD`s in Dockerfile will be ignored when it's run with Nextflow/Kubernetes
 
 
 # Nextflow
@@ -36,4 +36,4 @@
 ## Running jobs
 1. Run a job from `main.nf` in git repository with `nextflow kuberun ebenz99/MPCM-Nextflow -latest`
 
-`Users/ebensman/code/workspaces/MPCM/ebenz99/MPCM-Nextflow/`
+`Users/ebensman/code/workspaces/MPCM/projects/ebenz99/MPCM-Nextflow/`

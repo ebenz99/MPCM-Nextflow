@@ -9,4 +9,5 @@ RUN conda install xlrd
 
 ADD . /
 
-CMD [ "python", "./test2.py" ]
+
+CMD [ "ls" ]
