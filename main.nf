@@ -3,6 +3,8 @@ process pre {
     file 'scale.txt' into numbers
 
     """
+    #!/bin/bash
+
     for i in {1..5}
     do
        echo $i >> scale.txt
