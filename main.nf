@@ -1,9 +1,19 @@
-num = Channel.from( 1, 2, 3 )
+process pre {
+    output:
+    file 'scale.txt' into numbers
+
+    """
+    for i in {1..5}
+    do
+       echo $i >> scale.txt
+    done
+    """
+}
 
 process test {
   input:
-  val x from num
-  
+  val x from numbers
+
   '''
   cd ..
   cd ..
