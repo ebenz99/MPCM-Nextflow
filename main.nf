@@ -1,20 +1,8 @@
-process pre {
-    output:
-    file 'scale.txt' into numbers
-
-    """
-    #!/bin/bash
-
-    for i in {1..5}
-    do
-       echo \$i >> scale.txt
-    done
-    """
-}
+nums = Channel.from(1..5)
 
 process test {
   input:
-  val x from numbers
+  val x from nums
 
   '''
   cd ..
