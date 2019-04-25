@@ -26,7 +26,7 @@ To run this repo, you must have previously installed:
 3. Create your docker image and push it to dockerhub
 5. Create a `nextflow.config` file
 8. Run with `nextflow kuberun <github-username>/<MPCM-repo> -latest`
-5. Save data with `./kube-save.sh <PVC> projects/ebenz99/MPCM-Nextflow/Mechanistic_Pan-Cancer_Model/op`
+5. Save data with `./kube-save.sh <PVC> <relative-path-to-data>`
 
 ### Building and testing with Docker
 
