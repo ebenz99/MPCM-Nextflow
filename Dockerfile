@@ -12,4 +12,4 @@ ADD . /
 
 WORKDIR /Mechanistic_Pan-Cancer_Model
 
-CMD ["python", "test2.py"]
+CMD ["python", "test2.py", "1"]
