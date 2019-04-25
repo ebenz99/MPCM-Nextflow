@@ -7,7 +7,7 @@ process pre {
 
     for i in {1..5}
     do
-       echo $i >> scale.txt
+       echo \$i >> scale.txt
     done
     """
 }
