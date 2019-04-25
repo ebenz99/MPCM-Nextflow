@@ -10,4 +10,6 @@ RUN conda install xlrd
 ADD . /
 
 
-CMD [ "ls" ]
+WORKDIR /Mechanistic_Pan-Cancer_Model
+
+CMD ["python", "test2.py"]
