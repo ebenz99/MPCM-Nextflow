@@ -1,0 +1,6 @@
+[submodule "pwd"]
+	path = pwd
+	url = https://github.com/birtwistlelab/Mechanistic_Pan-Cancer_Model.git
+[submodule "Mechanistic_Pan-Cancer_Model"]
+	path = Mechanistic_Pan-Cancer_Model
+	url = https://github.com/birtwistlelab/Mechanistic_Pan-Cancer_Model.git
