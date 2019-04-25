@@ -15,7 +15,7 @@ To run this repo, you must have previously installed:
 2. Download the config file and put in `~/.kube/`
 3. Clone this repo
 4. Run with `nextflow kuberun ebenz99/MPCM-Nextflow -latest`
-5. Save data with cd
+5. Save data with `./kube-save.sh <PVC> projects/ebenz99/MPCM-Nextflow/Mechanistic_Pan-Cancer_Model/op`
 
 
 
