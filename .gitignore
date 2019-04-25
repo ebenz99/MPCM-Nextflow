@@ -1,2 +1,4 @@
 kustomization.yaml
 .nextflow.log*
+cm.sh
+run.sh

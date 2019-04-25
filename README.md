@@ -15,7 +15,7 @@ To run this repo, you must have previously installed:
 2. Download the config file and put in `~/.kube/`
 3. Clone this repo
 4. Run with `nextflow kuberun ebenz99/MPCM-Nextflow -latest`
-5. Save data with `./kube-save.sh deepgtex-prp projects/ebenz99/MPCM-Nextflow/op`
+5. Save data with cd
 
 
 
@@ -25,7 +25,8 @@ To run this repo, you must have previously installed:
 2. Download the config file and put in `~/.kube/`
 3. Create your docker image and push it to dockerhub
 5. Create a `nextflow.config` file
-8. Run with `nextflow kuberun ebenz99/MPCM-Nextflow -latest`
+8. Run with `nextflow kuberun <github-username>/<MPCM-repo> -latest`
+5. Save data with `./kube-save.sh <PVC> projects/ebenz99/MPCM-Nextflow/Mechanistic_Pan-Cancer_Model/op`
 
 ### Building and testing with Docker
 
@@ -37,6 +38,7 @@ To run this repo, you must have previously installed:
 4. Push it to dockerhub with `docker push <username>/<image-name>:<tag>`
 
 ## Good to Know Things
+1. The Feltus PVC is `deepgtex-prp`
 1. `main.nf` is run from the github version -- remember to commit your changes!
 1. Peek into a pod with `kubectl logs <podname>`
 2. Delete all pods with `kubectl delete pod --all`
