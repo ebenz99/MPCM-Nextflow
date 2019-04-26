@@ -1,4 +1,4 @@
-num = Channel.from(1..5)
+num = Channel.from(3..5)
 
 process test {
   input:
