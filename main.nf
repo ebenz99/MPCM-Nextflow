@@ -1,4 +1,4 @@
-num = Channel.from(3..5)
+num = Channel.from(6..7)
 
 process test {
   input:
@@ -14,7 +14,6 @@ process test {
   cd Mechanistic_Pan-Cancer_Model
   python test2.py $x
   """
-
 }
 
 
