@@ -8,6 +8,8 @@ process test {
   cd ..
   cd ..
   cd ..
+  ls > a.txt
+  cd workspace
   cd projects
   cd ebenz99
   cd MPCM-Nextflow
