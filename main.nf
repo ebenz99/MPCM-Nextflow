@@ -1,8 +1,8 @@
-nums = Channel.from(1..5)
+num = Channel.from(1..5)
 
 process test {
   input:
-  val x from nums
+  val num
 
   '''
   cd ..
@@ -12,7 +12,7 @@ process test {
   cd ebenz99
   cd MPCM-Nextflow
   cd Mechanistic_Pan-Cancer_Model
-  python test2.py $x
+  python test2.py $num
   '''
 
 }
